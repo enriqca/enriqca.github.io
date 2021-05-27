@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inglês com o João</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="teacher.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+  <nav class="menu container-fluid">
+    <div class="row">
+      <div id="logo" class="col-12 col-sm-6"><img src="teacher.png" width="30px" height="30px" alt=""/><a href="#">Inglês com o João</a></div>
+      <div class="col-4 col-sm-2"><a href="#sobreoprofessor"><i class="fas fa-question-circle"></i> Sobre o professor</a></div>
+      <div class="col-4 col-sm-2"><a href="#depoimentos"><i class="fas fa-user-check"></i> Depoimentos</a></div>
+      <div class="col-4 col-sm-2">
+        <a href="#" class="dropdown" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="far fa-address-book"></i> Contato</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a class="dropdown-item" href="#cadastroaluno"><i class="fas fa-keyboard"></i> Cadastro</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+      <!-- início banner de apresentação -->
+      <div class="container-fluid banner">
+          <div class="textobanner">
+            <h1>Aulas de inglês particulares com João Inácio, garanta já o seu horário com o melhor professor de Tangamandápio. 
+            <br> Aproveite as Condições especiais pros novos alunos que entrarem em contato pelo site.</h1>
+          </div>
+      </div>
+      <!-- fim banner de apresentação -->
+
+      <!-- sobre o professor -->
+      
+      <div class="container-fluid sobreoprof" id="sobreoprofessor">
+        <h1 class="container">Sobre o professor</h1>
+        <div class="row">
+          <img class="col-12 col-md-3" src="professor.jpg" alt="">
+          <p class="col-12 col-md-9">João Inácio da Silva tem 31 anos e dá aulas de inglês há 6 anos. Formado em Letras - Inglês pela Universidade
+            Federal de Minas Gerais (UFMG), o mineiro de Belo Horizonte é apaixonado por lecionar e procura sempre proporcionar o melhor
+            pros seus alunos. Atualmente tem cerca de 30 alunos frequentando suas aulas particulares, além de 2 turmas em uma escola
+            estadual da região de Belo Horizonte.
+          </p>
+        </div>
+      </div>
+      <!-- fim das informações sobre o professor -->
+      
+      <!-- indicações de alunos -->
+      <div class="container-fluid indicacoes">
+        <h1 class="container">Feedback dos alunos</h1> <a id="depoimentos"></a>
+        <div class="row">
+
+          <div class="col-12 col-md-4">            
+            <div class="row">
+              <img class="col-6 col-sm-4 col-md-6 imagensindicacao" src="estudante1.jpg" alt="estudante 1">
+              <p class="col-6 col-sm-8 col-md-6"> O professor João me ajudou muito aprender inglês.<br> <strong>- Ana Luiza (6 anos)</strong></p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <img class="col-6 col-sm-4 col-md-6 imagensindicacao" src="estudante2.jpg" alt="estudante 1">
+              <p class="col-6 col-sm-8 col-md-6"> As aulas me ajudaram muito aumentar a minha fluência em inglês.<br> <strong>- Sofia (16 anos)</strong></p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <img class="col-6 col-sm-4 col-md-6 imagensindicacao" src="estudante3.jpg" alt="estudante 1">
+              <p class="col-6 col-sm-8 col-md-6"> Aprendi muito bem com as aulas do professor João.<br> <strong>- Manoel (8 anos)</strong></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- fim das indicações dos alunos -->
+
+      <!-- formulário de contato -->
+      
+      <div class="container-fluid formcadastro" id="cadastroaluno">
+        <h1 class="container">Cadastre-se e receba informações sobre as aulas</h1>
+        
+        <div class="container itensformulario">
+          <div class="row">
+            
+            <div class="mb-3 col-6">
+              <label for="nomeAluno" class="form-label">Nome: </label>
+              <input type="text" class="form-control" id="nomeAluno"/>
+            </div>
+
+            <div class="mb-3 col-6">
+              <label for="emailAluno" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="emailAluno" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3 col-6">
+              <label for="telefoneAluno" class="form-label">Telefone (Em caso de menor de idade, o do responsável)</label>
+              <input type="text" class="form-control telefoneAluno" id="telefoneAluno" placeholder="(99) 99999-9999"/>
+            </div>
+
+            <div class="mb-3 col-6">
+              <label for="escolaridadeAluno" class="form-label">Escolaridade:</label>
+              <select class="form-select" aria-label="Default select example" id="escolaridadeAluno">
+                <option value="nada">Não cursando nada no momento</option>
+                <option value="fundamental">Ensino Fundamental</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="superior">Ensino Superior</option>
+              </select>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!-- fim do form de contato -->
+
+      <!-- rodapé do site -->
+      <footer class="text-center text-white" style="background-color: #45637d;">
+        <!-- Copyright -->
+        <div class="text-center p-3 footer">
+          © 2020 |
+          <a class="text-white" href="">Henrique César - iJunior</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- fim do rodapé  -->
+
+      <a href="#logo"><i class="fas fa-arrow-up" id="botaosubir"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1085a7eaa5.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('body').on('focus', '.telefoneAluno', function(){
+            var maskBehavior = function (val) {
+                return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+            },
+            options = {
+                onKeyPress: function(val, e, field, options) {
+                    field.mask(maskBehavior.apply({}, arguments), options);
+
+                    if(field[0].value.length >= 14){
+                        var val = field[0].value.replace(/\D/g, '');
+                        if(/\d\d(\d)\1{7,8}/.test(val)){
+                            field[0].value = '';
+                            alert('Telefone Invalido');
+                        }
+                    }
+                }
+            };
+            $(this).mask(maskBehavior, options);
+        });
+      });
+    </script>
+  
+  </body>
+</html>
